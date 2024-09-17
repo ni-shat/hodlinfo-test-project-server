@@ -9,7 +9,7 @@ const port = 3000;
 const cors = require('cors');
 app.use(cors());
 
-// PostgreSQL client setup
+// PostgreSQL setup
 const pool = new Pool({
     user: 'postgres',           
     host: 'localhost',
